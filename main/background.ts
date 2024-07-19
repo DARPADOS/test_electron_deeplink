@@ -26,8 +26,8 @@ if (!gotTheLock) {
       mainWindow.focus()
     }
 
-    const url = new URL(commandLine.pop().slice(0, -1))
-
+    const url = new URL(commandLine.pop().slice(0))
+    
     if (url.hostname === 'open') {
 
       const params = url.searchParams
