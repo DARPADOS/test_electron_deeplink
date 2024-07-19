@@ -1,19 +1,5 @@
 <p align="center"><img src="https://i.imgur.com/a9QWW0v.png"></p>
 
-## Usage
-
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example with-tailwindcss
-
-# with yarn
-$ yarn create nextron-app my-app --example with-tailwindcss
-
-# with pnpm
-$ pnpm dlx create-nextron-app my-app --example with-tailwindcss
-```
 
 ### Install Dependencies
 
@@ -36,3 +22,9 @@ $ yarn dev (or `npm run dev` or `pnpm run dev`)
 # production build
 $ yarn build (or `npm run build` or `pnpm run build`)
 ```
+
+### Open App with Deep Linking
+
+After starting the development environment, you can access the application using the following link:
+
+[deep-link://open?address=0xwalletExample](deep-link://open?address=0xwalletExampleg)
