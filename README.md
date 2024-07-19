@@ -27,4 +27,4 @@ $ yarn build (or `npm run build` or `pnpm run build`)
 
 After starting the development environment, you can access the application using the following link:
 
-[deep-link://open?address=0xwalletExample](deep-link://open?address=0xwalletExampleg)
+<a href="deep-link://open?address=0xwalletExample">deep-link://open?address=0xwalletExample</a>
